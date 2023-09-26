@@ -16,7 +16,7 @@ info:
     name: MIT
     url: https://es.wikipedia.org/wiki/Licencia_MIT
 servers:
-  - url: https://municipality-domain-manager.scodus.com/api
+  - url: https://profile.knexperts.com/api
     description: Base URL
 components:
   securitySchemes:

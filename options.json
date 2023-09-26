@@ -21,7 +21,7 @@
   },
   "servers": [
     {
-      "url": "https://municipality-domain-manager.scodus.com/api",
+      "url": "https://profile.knexperts.com/api",
       "description": "Base URL"
     }
   ]
