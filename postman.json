@@ -166,12 +166,12 @@
 								},
 								{
 									"key": "email",
-									"value": "domain2@domain.com",
+									"value": "salpasilichho@gmail.com",
 									"type": "text"
 								},
 								{
 									"key": "password",
-									"value": "1234",
+									"value": "password",
 									"type": "text"
 								}
 							]
@@ -265,70 +265,6 @@
 									"key": "refresh_token",
 									"value": "{{refresh_token}}"
 								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "reset password mail",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "email",
-									"value": "augxdeveloper@gmail.com",
-									"type": "text"
-								}
-							]
-						},
-						"url": {
-							"raw": "{{url}}/reset-password-mail",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"reset-password-mail"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "reset password",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "password",
-									"value": "P@ssw0rd",
-									"type": "text"
-								},
-								{
-									"key": "password_confirmation",
-									"value": "P@ssw0rd",
-									"type": "text"
-								},
-								{
-									"key": "token",
-									"value": "Mp2fCp",
-									"type": "text"
-								}
-							]
-						},
-						"url": {
-							"raw": "{{url}}/reset-password",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"reset-password"
 							]
 						}
 					},

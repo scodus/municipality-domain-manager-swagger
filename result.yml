@@ -107,10 +107,10 @@ paths:
               properties:
                 email:
                   type: string
-                  example: domain2@domain.com
+                  example: salpasilichho@gmail.com
                 password:
-                  type: integer
-                  example: '1234'
+                  type: string
+                  example: password
       responses:
         '200':
           description: Successful response
@@ -149,50 +149,6 @@ paths:
             type: string
           required: true
           example: '{{refresh_token}}'
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
-  /reset-password-mail:
-    post:
-      tags:
-        - user
-      summary: reset password mail
-      requestBody:
-        content:
-          multipart/form-data:
-            schema:
-              type: object
-              properties:
-                email:
-                  type: string
-                  example: augxdeveloper@gmail.com
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
-  /reset-password:
-    post:
-      tags:
-        - user
-      summary: reset password
-      requestBody:
-        content:
-          multipart/form-data:
-            schema:
-              type: object
-              properties:
-                password:
-                  type: string
-                  example: P@ssw0rd
-                password_confirmation:
-                  type: string
-                  example: P@ssw0rd
-                token:
-                  type: string
-                  example: Mp2fCp
       responses:
         '200':
           description: Successful response
